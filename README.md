@@ -43,8 +43,6 @@
 
 - If there is an error, you can try to run it again
 
-- If there is no error, you can reset the time in GUI and move on to the next step
-
 8) Open Web router page and reset the time of router
 
 ### Connection:
