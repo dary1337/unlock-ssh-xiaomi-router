@@ -45,14 +45,35 @@
 
 - If there is no error, you can reset the time in GUI and move on to the next step
 
+8) Open Web router page and reset the time of router
+
 ### Connection:
 
-8) Copy Serial Number from Web router page (f.e. `37668/A1ZZ16727`)
+9) Copy Serial Number from Web router page (f.e. `37668/A1ZZ16727`)
 
-9) Get the default password: [MiWiFi.DEV SSH Passwd Calculator](https://miwifi.dev/ssh)
+10) Get the default password: [MiWiFi.DEV SSH Passwd Calculator](https://miwifi.dev/ssh)
 
-10) Open command line and run: `ssh -oHostKeyAlgorithms=+ssh-rsa root@192.168.31.1`
+11) Open command line and run: `ssh -oHostKeyAlgorithms=+ssh-rsa root@192.168.31.1`
 
-11) Fill the password from `step 9` (by clicking RMB)
+12) Fill the password from `step 9` (by clicking RMB)
+
+### Restore ssh after reboot:
+
+You can relaunch script  
+Result will be like that:
+```
+{"code":0}
+{ "code": 0, "msg": "", "id": 42 }
+{"code":-101,"msg":"request server timeout"}
+{ "code": 0, "msg": "", "id": 43 }
+{"code":-101,"msg":"request server timeout"}
+{ "code": 0, "msg": "", "id": 44 }
+{"code":-101,"msg":"request server timeout"}
+{ "code": 0, "msg": "", "id": 45 }
+{"code":-101,"msg":"request server timeout"}
+{ "code": 0, "msg": "", "id": 46 }
+{"code":-101,"msg":"request server timeout"}
+end
+```
 
 ### [How to setup router (AX5400) in WISP mode](https://github.com/dary1337/wisp-mode-redmi-ax5400)
