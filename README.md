@@ -1,10 +1,32 @@
-# Unlock ssh for Xiaomi Routers
+# Enable SSH / Root on Xiaomi Redmi AX5400 Gaming Edition Router (MiWiFi 1.0.95)
+
+**English** · [Русский](README.ru.md)
+
+Step-by-step guide to unlock SSH and get root access on Xiaomi / Redmi routers **without flashing custom firmware**. Tested on the **Redmi AX5400 Gaming Edition** running stock **MiWiFi 1.0.95**, using the STOK web exploit and the MiWiFi default-password calculator.
+
+## Supported routers
+
+The same method works on several Xiaomi / Redmi models on a vulnerable stock MiWiFi version (downgrade first if yours is newer). Recommended firmware per model:
+
+| Router | MiWiFi version |
+| --- | --- |
+| Redmi AX5400 Gaming/Esports Edition | 1.0.95 |
+| Redmi AX3000 | 1.0.33 |
+| Xiaomi AX3000 | 1.0.48 / 1.0.46 |
+| Xiaomi AX1800 | 1.0.399 |
+| Xiaomi AX9000 | 1.0.165 |
+| Xiaomi AIoT AX3600 | 1.1.21 |
+| Xiaomi AC2100 | 2.0.743 |
+| Xiaomi AIoT AC2350 | 1.3.8 |
+| Xiaomi 10 Gigabit Router | 1.0.53 |
+
+Full details and the original research are in the [mirrored forum guide](BACKUP.md).
 
 ### Thanks to `Minorice`
 
 ### Original post: https://www.right.com.cn/forum/thread-8348455-1-1.html
 
-### [Markdown version](https://github.com/dary1337/unlock-ssh-xiaomi-router/blob/master/BACKUP.md)
+### [Full forum guide — all models (mirror)](BACKUP.md)
 
 ### [HTML Forum backup](https://github.com/dary1337/unlock-ssh-xiaomi-router/releases/tag/forum_backup)
 
@@ -18,7 +40,7 @@
 ### Stable Version MiWiFi:
 - 1.0.95
 
-# My Steps:
+# How to enable SSH on MiWiFi (step by step)
 
 ### Preparation:
 
